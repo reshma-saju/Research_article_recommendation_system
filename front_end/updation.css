@@ -1,0 +1,78 @@
+.mainbody{
+    height: 100vh;
+    
+}
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    border-bottom: #ffffff 2px ridge;
+  
+
+}
+.headerleft{
+    width: 50%;
+    float: left;
+    background-color: yellow;
+   
+}
+
+.headerright{
+    width: 50%;
+   
+    background-color: yellow;
+
+}
+
+.contcontrols{
+   
+
+}
+.details{
+    font-size: 40px;
+
+}
+.cont{
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+.backbt{
+    
+    width: 103px;
+    height: 33px;
+    color: yellow;
+    background-color: black
+}
+.submit{
+    width: 100px;
+    height: 30px;
+    margin-top: 26px;
+    margin-left: 50px;
+    
+    
+
+}
+.leftcontent{
+    width: 20%;
+    height: 100vh ;
+    border-right: #ffffff 2px ridge;
+    float: left
+    
+
+
+
+
+}
+.rightcontent{
+    width: 70%;
+    float: left;
+    height: 100vh;
+
+}
