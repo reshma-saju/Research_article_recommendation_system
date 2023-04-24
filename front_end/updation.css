@@ -1,9 +1,14 @@
 .mainbody{
-    height: 170vh;
-    background-image: linear-gradient(to left top, #000000, #000000, #000000, #000000, #000000, #181818, #292929, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
+    height: 100%;
+   
 }
 body{
+    background-image: url("images/updationnew.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0;
+    
 }
 
 .header{
@@ -36,6 +41,9 @@ body{
 }
 .details{
     font-size: 40px;
+    color: yellow;
+    padding-left: 56px;
+    font-weight: bold;
 
 }
 .cont{
@@ -63,13 +71,17 @@ body{
     height: 41px;
     margin-top: 39px;
     margin-left: 486px;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 10px;
+    border-color: white;
     
-    
+
 
 }
 .leftcontent{
     width: 20%;
-    height: 270vh ;
+    height: 165vh ;
     border-right: #ffffff 3px ridge;
     background-color: rgba(77, 116, 136, 0.108);
     float: left
@@ -82,7 +94,7 @@ body{
 .rightcontent{
     width: 70%;
     float: left;
-    height: 270vh;
+    height: 100%;
 
 }
 .cont{
