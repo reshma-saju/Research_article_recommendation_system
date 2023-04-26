@@ -1,6 +1,10 @@
 .mainbody{
-    background-image: linear-gradient(to left top, #000000, #000000, #000000, #000000, #000000, #181818, #292929, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
+    
     height: 100vh;
+    
+}
+.image{
+    opacity: 0.5;
 }
 
 .header{
@@ -17,6 +21,10 @@
 }
 
 body{
+    background-image: url("images/frontpage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0;
 }
 
@@ -47,7 +55,7 @@ body{
 }
 .contrightpara{
     font-size: 55px;
-    color: rgb(123, 123, 150);
+    color: rgb(178 180 161);
 
 }
 
@@ -88,13 +96,16 @@ body{
 
 }
 .headername{
-    color: rgb(20, 20, 20);
+    color: rgb(127 255 2);
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     margin-left: 30px;
+    font-size: 40px;
+    font-weight: bolder
+    
    
-    font-size: 30px;
+    
     
    
     

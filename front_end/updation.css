@@ -1,30 +1,32 @@
 .mainbody{
-    height: 100vh;
-    
+    height: 170vh;
+    background-image: linear-gradient(to left top, #000000, #000000, #000000, #000000, #000000, #181818, #292929, #3b3b3b, #676767, #979797, #cacaca, #ffffff);
 }
 body{
     margin: 0;
 }
 
 .header{
-    background-color: black;
+    
     width: 100%;
     height: 50px;
-    border-bottom: #ffffff 2px ridge;
+    border-bottom: #4ca743a2 2px ridge;
   
 
 }
 .headerleft{
     width: 50%;
     float: left;
-    background-color: yellow;
+    height: 50px;
+    
    
 }
 
 .headerright{
     width: 50%;
-   
-    background-color: yellow;
+    height: 50px;
+    float: left;
+    
 
 }
 
@@ -44,25 +46,32 @@ body{
 
 }
 .backbt{
-    
+    border-radius:6px;
+    border-color: white;
+    margin-left: 84%;
+    margin-top: 7px;
     width: 103px;
     height: 33px;
     color: yellow;
     background-color: black
+    
+    
+    
 }
 .submit{
     width: 100px;
-    height: 30px;
-    margin-top: 26px;
-    margin-left: 50px;
+    height: 41px;
+    margin-top: 39px;
+    margin-left: 486px;
     
     
 
 }
 .leftcontent{
     width: 20%;
-    height: 100vh ;
-    border-right: #ffffff 2px ridge;
+    height: 270vh ;
+    border-right: #ffffff 3px ridge;
+    background-color: rgba(77, 116, 136, 0.108);
     float: left
     
 
@@ -73,6 +82,14 @@ body{
 .rightcontent{
     width: 70%;
     float: left;
-    height: 100vh;
+    height: 270vh;
 
+}
+.cont{
+    border-radius: 20px;
+    width: 530px;
+    padding-left: 20px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
