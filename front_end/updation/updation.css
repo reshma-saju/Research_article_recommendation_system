@@ -2,8 +2,9 @@
     height: 100%;
    
 }
+
 body{
-    background-image: url("images/updationnew.jpg");
+    background-image: url("/front_end/images/updationnew.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -23,9 +24,17 @@ body{
     width: 50%;
     float: left;
     height: 50px;
+   
     
    
 }
+
+.contheading{
+    margin-left: 30px;
+    font-size: 30px;
+    color: yellow;
+}
+
 
 .headerright{
     width: 50%;

@@ -19,9 +19,27 @@
     padding-top: 25px;
     padding-left: 30px;
 }
+.loginbutton{
+    float: left;
+    margin-left: 1390px;
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+}
+.login{
+    text-decoration: none;
+    color: white;
+    
+}
+.register{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
 
 body{
-    background-image: url("images/frontpage.jpg");
+    background-image: url("/front_end/images/frontpage.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
