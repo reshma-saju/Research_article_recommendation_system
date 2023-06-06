@@ -39,7 +39,7 @@
 }
 
 body{
-    background-image: url("/front_end/images/frontpage.jpg");
+    background-image: url("../images/frontpage.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
