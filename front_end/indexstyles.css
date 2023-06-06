@@ -19,6 +19,8 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    text-align: center;
+    padding: 0 2rem;
 }
 #hero-content > p:first-child {
     font-size: 2rem;
