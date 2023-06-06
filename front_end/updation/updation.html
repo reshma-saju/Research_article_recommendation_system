@@ -1,67 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="updation.css">
-</head>
-<body>
-    <div class="mainbody">
-        <div class="header">
-            <div class="headerleft">
-                <h1 class="contheading">UPDATION</h1>
-            </div>
-            <div class="headerright">
-                <button  class="backbt" onclick="history.back()">Go Back</button>
-            </div>
-
-        </div>
-        <div class="content">
-            <div class="leftcontent">
-                <h1>hello</h1>
-
-            </div>
-            <div class="rightcontent">
-            <form class="contcontrols">
-                <h2 class="details">Enter the details</h2>
-                <br>
-                <input type="text" class="cont" placeholder="Article ID">
-                <br>
-                <input type="text" class="cont" placeholder="Submitter">
-                <br>
-                <input type="text" class="cont" placeholder="Authors">
-                <br>
-                <input type="text" class="cont" placeholder="Title">
-                <br>
-                <input type="text" class="cont" placeholder="Comments">
-                <br>
-                <input type="text" class="cont" placeholder="Jurnal-ref">
-                <br>
-                <input type="text" class="cont" placeholder="doi">
-                <br>
-                <input type="text" class="cont" placeholder="Report- no">
-                <br>
-                <input type="text" class="cont" placeholder="Categories">
-                <br>
-                <input type="text" class="cont" placeholder="License">
-                <br>
-                <input type="text" class="cont" placeholder="Abstract">
-                <br>
-                <input type="text" class="cont" placeholder="Comments">
-                <br>
-               
-                <input type="submit" class="submit">
-                
-            </form>
-        </div>
-
-      
-
-
-        </div>
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="updation.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div>
+        <a href="/front_end/index.html">
+          <span>Article</span>
+          <span>Compass</span>
+        </a>
+      </div>
+      <ul>
+        <li>
+          <a href="/front_end/recommendation/recommendation.html"
+            >Recommendations</a
+          >
+        </li>
+        <li><a href="/front_end/summary/summary.html">Summary</a></li>
+        <li>
+          <a href="/front_end/topic modeling/topicmodeling.html"
+            >Topic Modelling</a
+          >
+        </li>
+        <li>
+          <a href="/front_end/updation/updation.html">Updations</a>
+        </li>
+      </ul>
+      <div></div>
     </div>
-    
-</body>
+    <div class="mainbody">
+      <!-- <div class="header">
+        <div class="headerleft">
+          <h1 class="contheading">UPDATION</h1>
+        </div>
+        <div class="headerright">
+          <button class="backbt" onclick="history.back()">Go Back</button>
+        </div> -->
+      </div>
+      <div class="content">
+        <!-- <div class="leftcontent">
+          <!-- <h1>hello</h1> -->
+        </div> -->
+        <div class="rightcontent">
+          <form class="contcontrols">
+            <h2 class="details">Enter the details to add to database:</h2>
+            <br />
+            <input type="text" class="cont" placeholder="Article ID" />
+            <br />
+            <input type="text" class="cont" placeholder="Submitter" />
+            <br />
+            <input type="text" class="cont" placeholder="Authors" />
+            <br />
+            <input type="text" class="cont" placeholder="Title" />
+            <br />
+            <input type="text" class="cont" placeholder="Comments" />
+            <br />
+            <input type="text" class="cont" placeholder="Jurnal-ref" />
+            <br />
+            <input type="text" class="cont" placeholder="doi" />
+            <br />
+            <input type="text" class="cont" placeholder="Report- no" />
+            <br />
+            <input type="text" class="cont" placeholder="Categories" />
+            <br />
+            <input type="text" class="cont" placeholder="License" />
+            <br />
+            <input type="text" class="cont" placeholder="Abstract" />
+            <br />
+            <input type="text" class="cont" placeholder="Comments" />
+            <br />
+
+            <input type="submit" class="submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

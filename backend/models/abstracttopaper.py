@@ -24,12 +24,10 @@ class ArticleRecommender:
         res_articles.head()
 
         res_ids = res_articles.index.tolist()
-        res_ids
 
         res_articles = res_articles[['title','abstract']].dropna()
         #articles is a list of all articles
         articles = res_articles['abstract'].tolist()
-        articles[0] #an uncleaned article
 
         def clean_text(document):
             document = re.sub('[^\w_\s-]', ' ',document)       #remove punctuation marks and other symbols
@@ -38,37 +36,29 @@ class ArticleRecommender:
             return cleaned_article
 
         cleaned_articles = list(map(clean_text, articles))
-        cleaned_articles[0]  #a cleaned, tokenized and stemmed article
 
         user_articles = clean_text(ARTICLE_READ)
-        user_articles
-
         #Generate tfidf maatrix model for entire corpus
         tfidf_matrix = TfidfVectorizer(stop_words='english', min_df=2) 
         # min_df : When building the vocabulary ignore terms that have a document frequency strictly lower than the given threshold
         article_tfidf_matrix = tfidf_matrix.fit_transform(cleaned_articles)
-        article_tfidf_matrix #tfidf vector of an article
 
         #Generate tfidf matrix model for read articles
         user_article_tfidf_vector = tfidf_matrix.transform([user_articles])
-        user_article_tfidf_vector
-
         user_article_tfidf_vector.toarray()
 
         articles_similarity_score=cosine_similarity(article_tfidf_matrix, user_article_tfidf_vector)
 
-        articles_similarity_score
 
         recommended_articles_id = articles_similarity_score.flatten().argsort()[::-1]
-        recommended_articles_id
 
         #Remove read articles from recommendations
         temp_final_id = [article_id for article_id in recommended_articles_id][:NUM_RECOMMENDED_ARTICLES]
         final_recommended_articles_id = [res_ids[i] for i in temp_final_id]
-        final_recommended_articles_id
 
-        print ('Recommendations ')
-        print (res_articles.loc[final_recommended_articles_id]['title'])
+        # print ('Recommendations ')
+        # print (res_articles.loc[final_recommended_articles_id])
+        print(final_recommended_articles_id)
 
         return res_articles.loc[final_recommended_articles_id]['title']
     

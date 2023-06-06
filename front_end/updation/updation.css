@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image:url("../images/updationnew.jpg") ;
+    background-image:url("../images/main-background.jpeg") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -50,7 +50,7 @@ body{
 }
 .details{
     font-size: 40px;
-    color: yellow;
+    /* color: yellow; */
     padding-left: 56px;
     font-weight: bold;
 
@@ -81,9 +81,10 @@ body{
     margin-top: 39px;
     margin-left: 486px;
     cursor: pointer;
-    background-color: green;
+    background-color: rgb(209, 207, 169);
     border-radius: 10px;
     border-color: white;
+    font-weight: bold;
     
 
 

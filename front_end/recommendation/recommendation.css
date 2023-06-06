@@ -1,4 +1,8 @@
 body{
+    background-image:url("../images/main-background.jpeg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0;
 }
 .mainbody{
@@ -49,7 +53,7 @@ body{
 .content{
     width: 100%;
     height: 533px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .leftcont{
     width: 20%;
@@ -94,16 +98,16 @@ body{
     height: 30px;
     border-radius: 10px;
     font-size: medium;
-    background-color: green;
+    background-color: rgb(209, 207, 169);
     border: 1px black ridge;
     cursor: pointer;
 }
 .submit:hover{
-    background-color: darkgreen;
+    background-color: rgb(212, 207, 111);
 }
 
 .footer{
     width: 100%;
     height: 100px;
-    background-color: green;
+    /* background-color: green; */
 }
