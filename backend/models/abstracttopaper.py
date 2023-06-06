@@ -1,4 +1,4 @@
-# try:
+
 import numpy
 import pandas as pd
 import pickle as pk
@@ -8,14 +8,6 @@ import re
 from nltk.stem.snowball import SnowballStemmer
 import nltk
 stemmer = SnowballStemmer("english")
-import numpy
-import pandas as pd
-import pickle as pk
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import re
-from nltk.stem.snowball import SnowballStemmer
-import nltk
 stemmer = SnowballStemmer("english")
 
 class ArticleRecommender:
