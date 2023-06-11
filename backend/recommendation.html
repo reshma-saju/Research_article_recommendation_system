@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../common.css">
-    <link rel="stylesheet" href="recommendation.css">
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="/front_end/common.css">
+    <link rel="stylesheet" href="/front_end/recommendation/recommendation.css">
 </head>
 <body>
     <div id="navbar">
@@ -37,10 +37,10 @@
             </div>
             <div class="rightcont">
                 <p class="contenthead">Enter the details for recommendations:</p>
-                <form action="">
-                    <textarea name="message" class="topic" cols="30" rows="10" placeholder="Topic"></textarea>
+                <form action="http://localhost:5000/recommendation" method="post">
+                    <textarea name="inp_title" class="topic" type="text" placeholder="Topic"></textarea>
                     <br>
-                    <textarea name="message" class="abstract" cols="30" rows="10" placeholder="Abstract"></textarea>
+                    <textarea name="inp_abstract" class="abstract" type="text" placeholder="Abstract"></textarea>
                     <br>
                     <input type="submit" class="submit">
                 </form>

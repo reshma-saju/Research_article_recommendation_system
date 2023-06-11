@@ -1,5 +1,4 @@
 
-
 #hero {
     height: 100%;
     padding: 2rem;
@@ -7,9 +6,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* background-image: url(https://images.unsplash.com/photo-1586936893354-362ad6ae47ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJlc2VhcmNofGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    /* background-image: url(https://media.istockphoto.com/id/470721440/vector/books-seamless-pattern.jpg?s=612x612&w=0&k=20&c=SBWwuWALkou5kDTDq6_V7SGuBMJ4vxTK3y15B9ZSFDE=);
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;  */
+    background-color: rgb(249, 249, 239);
 }
 
 #hero-content {
