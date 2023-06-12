@@ -1,4 +1,7 @@
 from flask import Flask, redirect, url_for, request, render_template
+from models.abstracttopaper import getRecommendation
+from models.titlestopaper import title_getRecommendation
+from models.abstract_summary import getSummary
 
 app = Flask(__name__)
 
@@ -7,25 +10,31 @@ app = Flask(__name__)
 def hello_world():
     return "Hello, World!"
 
-@app.route('/success/<name>')
-def success(name):
-   return 'welcome %s' % name
 
-# @app.route('/hello/<title>')
-# def hello(user):
-#    return render_template('hello.html', name = user)
 
-@app.route('/recommendation',methods = ['POST', 'GET'])
+@app.route('/recommendation', methods=['POST', 'GET'])
 def reco():
-    title = request.form['inp_title']
-    abst = request.form['inp_abstract']
     if request.method == 'POST':
-      return render_template('hello.html', name = title)
+        title = request.form['inp_title']
+        abst = request.form['inp_abstract']
+        result_abs=getRecommendation(abst)
+        result_titl=title_getRecommendation(title)
+        # return 'welcome %s' % title
+        return render_template('rec_result.html', title_result=result_titl, abs_result=result_abs) 
     else:
-      return redirect(url_for('success',name = title))
+        return "Method not allowed. Please use the POST method to access this route."
 
 
+@app.route('/summary', methods=['POST', 'GET'])
+def summ():
+    if request.method == 'POST':
+        input_text = request.form['inp_text']
+        result_summ=getSummary(input_text)
+        # return 'welcome %s' % title
+        return render_template('summ_result.html', summary=result_summ) 
+    else:
+        return "Method not allowed. Please use the POST method to access this route."
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../common.css" />
-    <link rel="stylesheet" href="summary.css" />
+    <link rel="stylesheet" href="/front_end/common.css">
+    <link rel="stylesheet" href="/front_end/recommendation/recommendation.css">
   </head>
   <body>
     <div id="navbar">
@@ -18,11 +18,11 @@
       </div>
       <ul>
         <li>
-          <a href="/front_end/recommendation/recommendation.html"
+          <a href="/backend/recommendation.html"
             >Recommendations</a
           >
         </li>
-        <li><a href="/front_end/summary/summary.html">Summary</a></li>
+        <li><a href="/backend/summary.html">Summary</a></li>
         <li>
           <a href="/front_end/topic modeling/topicmodeling.html"
             >Topic Modelling</a
@@ -47,12 +47,10 @@
         <div class="leftcont"></div>
         <div class="rightcont">
             <p class="contenthead">Enter the details for a summary:</p>
-          <form action="">
+            <form action="http://127.0.0.1:5000/summary" method="post">
             <textarea
-              name="message"
+              name="inp_text"
               class="abstract"
-              cols="30"
-              rows="10"
               placeholder="Enter Here"
             ></textarea>
             <br />
