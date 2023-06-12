@@ -1,143 +1,144 @@
-id,submitter,authors,title,comments,journal-ref,doi,report-no,categories,license,abstract,versions/0/version,versions/0/created,versions/1/version,versions/1/created,update_date,authors_parsed/0/0,authors_parsed/0/1,authors_parsed/0/2,authors_parsed/1/0,authors_parsed/1/1,authors_parsed/1/2,authors_parsed/2/0,authors_parsed/2/1,authors_parsed/2/2,authors_parsed/3/0,authors_parsed/3/1,authors_parsed/3/2,versions/2/version,versions/2/created,authors_parsed/4/0,authors_parsed/4/1,authors_parsed/4/2,authors_parsed/5/0,authors_parsed/5/1,authors_parsed/5/2,authors_parsed/6/0,authors_parsed/6/1,authors_parsed/6/2,authors_parsed/0/3,authors_parsed/1/3,versions/3/version,versions/3/created,authors_parsed/2/3,authors_parsed/3/3,authors_parsed/4/3,authors_parsed/5/3,authors_parsed/6/3,authors_parsed/7/0,authors_parsed/7/1,authors_parsed/7/2,authors_parsed/8/0,authors_parsed/8/1,authors_parsed/8/2,authors_parsed/9/0,authors_parsed/9/1,authors_parsed/9/2,authors_parsed/10/0,authors_parsed/10/1,authors_parsed/10/2,authors_parsed/11/0,authors_parsed/11/1,authors_parsed/11/2,authors_parsed/12/0,authors_parsed/12/1,authors_parsed/12/2,authors_parsed/13/0,authors_parsed/13/1,authors_parsed/13/2,versions/4/version,versions/4/created,authors_parsed/14/0,authors_parsed/14/1,authors_parsed/14/2,authors_parsed/15/0,authors_parsed/15/1,authors_parsed/15/2,authors_parsed/16/0,authors_parsed/16/1,authors_parsed/16/2,authors_parsed/17/0,authors_parsed/17/1,authors_parsed/17/2,authors_parsed/18/0,authors_parsed/18/1,authors_parsed/18/2,authors_parsed/19/0,authors_parsed/19/1,authors_parsed/19/2,authors_parsed/20/0,authors_parsed/20/1,authors_parsed/20/2,authors_parsed/21/0,authors_parsed/21/1,authors_parsed/21/2,authors_parsed/22/0,authors_parsed/22/1,authors_parsed/22/2,authors_parsed/23/0,authors_parsed/23/1,authors_parsed/23/2,authors_parsed/24/0,authors_parsed/24/1,authors_parsed/24/2,authors_parsed/25/0,authors_parsed/25/1,authors_parsed/25/2,authors_parsed/7/3,authors_parsed/8/3,versions/5/version,versions/5/created,versions/6/version,versions/6/created,versions/7/version,versions/7/created,authors_parsed/26/0,authors_parsed/26/1,authors_parsed/26/2,authors_parsed/27/0,authors_parsed/27/1,authors_parsed/27/2,authors_parsed/28/0,authors_parsed/28/1,authors_parsed/28/2,authors_parsed/29/0,authors_parsed/29/1,authors_parsed/29/2,authors_parsed/30/0,authors_parsed/30/1,authors_parsed/30/2,authors_parsed/31/0,authors_parsed/31/1,authors_parsed/31/2,authors_parsed/32/0,authors_parsed/32/1,authors_parsed/32/2,authors_parsed/33/0,authors_parsed/33/1,authors_parsed/33/2,authors_parsed/34/0,authors_parsed/34/1,authors_parsed/34/2,authors_parsed/35/0,authors_parsed/35/1,authors_parsed/35/2,authors_parsed/36/0,authors_parsed/36/1,authors_parsed/36/2,authors_parsed/37/0,authors_parsed/37/1,authors_parsed/37/2,authors_parsed/38/0,authors_parsed/38/1,authors_parsed/38/2,authors_parsed/39/0,authors_parsed/39/1,authors_parsed/39/2,authors_parsed/40/0,authors_parsed/40/1,authors_parsed/40/2,authors_parsed/41/0,authors_parsed/41/1,authors_parsed/41/2,authors_parsed/42/0,authors_parsed/42/1,authors_parsed/42/2,authors_parsed/43/0,authors_parsed/43/1,authors_parsed/43/2,authors_parsed/9/3,authors_parsed/10/3,authors_parsed/11/3,authors_parsed/12/3,authors_parsed/13/3,authors_parsed/14/3,authors_parsed/15/3,authors_parsed/16/3,authors_parsed/17/3,authors_parsed/18/3,authors_parsed/19/3,authors_parsed/20/3,authors_parsed/21/3,authors_parsed/22/3,authors_parsed/23/3,authors_parsed/24/3,authors_parsed/25/3,authors_parsed/26/3
-704.0081	Valeriy Tolstoy	V.N. Tolstoy (INP, Moscow State University)	Quantum Deformations of Relativistic Symmetries	"10 pages. Invited talk at the XXII Max Born Symposium ""Quantum, Super
-  and Twistors"", September 27-29, 2006, Wroclaw (Poland), in honour of Jerzy
-  Lukierski."				math.QA hep-th math-ph math.MP math.RT		"  We discussed quantum deformations of D=4 Lorentz and Poincare algebras. In
-the case of Poincare algebra it is shown that almost all classical r-matrices
-of S. Zakrzewski classification correspond to twisted deformations of Abelian
-and Jordanian types. A part of twists corresponding to the r-matrices of
-Zakrzewski classification are given in explicit form.
+id,submitter,authors,title,comments,journal-ref,doi,report-no,categories,license,abstract,versions/0/version,versions/0/created,versions/1/version,versions/1/created,update_date
+"704.0081	Valeriy Tolstoy	V.N. Tolstoy (INP"," Moscow State University)	Quantum Deformations of Relativistic Symmetries	""10 pages. Invited talk at the XXII Max Born Symposium """"Quantum", Super,,,,,,,,,,,,,
+"  and Twistors""""", September 27-29,2006, Wroclaw (Poland), in honour of Jerzy,,,,,,,,,,,
+"  Lukierski.""				math.QA hep-th math-ph math.MP math.RT		""  We discussed quantum deformations of D=4 Lorentz and Poincare algebras. In",,,,,,,,,,,,,,,
+the case of Poincare algebra it is shown that almost all classical r-matrices,,,,,,,,,,,,,,,
+of S. Zakrzewski classification correspond to twisted deformations of Abelian,,,,,,,,,,,,,,,
+and Jordanian types. A part of twists corresponding to the r-matrices of,,,,,,,,,,,,,,,
+Zakrzewski classification are given in explicit form.,,,,,,,,,,,,,,,
 "	v1	Mon, 2 Apr 2007 13:06:59 GMT			23-05-2007	Tolstoy	V. N.																						INP, Moscow State University																																																																																																																																																			
-704.0082	Tetsuo Kurosaki	Tetsuo Kurosaki, Miki Wadati	"Matter-Wave Bright Solitons with a Finite Background in Spinor
-  Bose-Einstein Condensates"	18 pages, 4 figures, LaTeX		10.1143/JPSJ.76.084002		cond-mat.other cond-mat.stat-mech		"  We investigate dynamical properties of bright solitons with a finite
-background in the F=1 spinor Bose-Einstein condensate (BEC), based on an
-integrable spinor model which is equivalent to the matrix nonlinear
-Schr\""{o}dinger equation with a self-focusing nonlineality. We apply the
-inverse scattering method formulated for nonvanishing boundary conditions. The
-resulting soliton solutions can be regarded as a generalization of those under
-vanishing boundary conditions. One-soliton solutions are derived in an explicit
-manner. According to the behaviors at the infinity, they are classified into
-two kinds, domain-wall (DW) type and phase-shift (PS) type. The DW-type implies
-the ferromagnetic state with nonzero total spin and the PS-type implies the
-polar state, where the total spin amounts to zero. We also discuss two-soliton
-collisions. In particular, the spin-mixing phenomenon is confirmed in a
-collision involving the DW-type. The results are consistent with those of the
-previous studies for bright solitons under vanishing boundary conditions and
-dark solitons. As a result, we establish the robustness and the usefulness of
-the multiple matter-wave solitons in the spinor BECs.
+704.0082	Tetsuo Kurosaki	Tetsuo Kurosaki, Miki Wadati	Matter-Wave Bright Solitons with a Finite Background in Spinor",,,,,,,,,,,,,,,
+"  Bose-Einstein Condensates""	18 pages", 4 figures," LaTeX		10.1143/JPSJ.76.084002		cond-mat.other cond-mat.stat-mech		""  We investigate dynamical properties of bright solitons with a finite",,,,,,,,,,,,,
+background in the F=1 spinor Bose-Einstein condensate (BEC), based on an,,,,,,,,,,,,,,
+integrable spinor model which is equivalent to the matrix nonlinear,,,,,,,,,,,,,,,
+"Schr\""""{o}dinger equation with a self-focusing nonlineality. We apply the",,,,,,,,,,,,,,,
+inverse scattering method formulated for nonvanishing boundary conditions. The,,,,,,,,,,,,,,,
+resulting soliton solutions can be regarded as a generalization of those under,,,,,,,,,,,,,,,
+vanishing boundary conditions. One-soliton solutions are derived in an explicit,,,,,,,,,,,,,,,
+manner. According to the behaviors at the infinity, they are classified into,,,,,,,,,,,,,,
+two kinds, domain-wall (DW) type and phase-shift (PS) type. The DW-type implies,,,,,,,,,,,,,,
+the ferromagnetic state with nonzero total spin and the PS-type implies the,,,,,,,,,,,,,,,
+polar state, where the total spin amounts to zero. We also discuss two-soliton,,,,,,,,,,,,,,
+collisions. In particular, the spin-mixing phenomenon is confirmed in a,,,,,,,,,,,,,,
+collision involving the DW-type. The results are consistent with those of the,,,,,,,,,,,,,,,
+previous studies for bright solitons under vanishing boundary conditions and,,,,,,,,,,,,,,,
+dark solitons. As a result, we establish the robustness and the usefulness of,,,,,,,,,,,,,,
+the multiple matter-wave solitons in the spinor BECs.,,,,,,,,,,,,,,,
 "	v1	Sun, 1 Apr 2007 12:26:50 GMT			13-11-2009	Kurosaki	Tetsuo		Wadati	Miki																																																																																																																																																																						
-704.0083	Andrei Barvinsky	A.O.Barvinsky	Why there is something rather than nothing (out of everything)?	4 pages, RevTex, several references added and minor changes done	Phys.Rev.Lett.99:071301,2007	10.1103/PhysRevLett.99.071301		hep-th		"  The path integral over Euclidean geometries for the recently suggested
-density matrix of the Universe is shown to describe a microcanonical ensemble
-in quantum cosmology. This ensemble corresponds to a uniform (weight one)
-distribution in phase space of true physical variables, but in terms of the
-observable spacetime geometry it is peaked about complex saddle-points of the
-{\em Lorentzian} path integral. They are represented by the recently obtained
-cosmological instantons limited to a bounded range of the cosmological
-constant. Inflationary cosmologies generated by these instantons at late stages
-of expansion undergo acceleration whose low-energy scale can be attained within
-the concept of dynamically evolving extra dimensions. Thus, together with the
-bounded range of the early cosmological constant, this cosmological ensemble
-suggests the mechanism of constraining the landscape of string vacua and,
-simultaneously, a possible solution to the dark energy problem in the form of
-the quasi-equilibrium decay of the microcanonical state of the Universe.
+704.0083	Andrei Barvinsky	A.O.Barvinsky	Why there is something rather than nothing (out of everything)?	4 pages, RevTex, several references added and minor changes done	Phys.Rev.Lett.99:071301,2007	10.1103/PhysRevLett.99.071301		hep-th		  The path integral over Euclidean geometries for the recently suggested",,,,,,,,,,,,,,,
+density matrix of the Universe is shown to describe a microcanonical ensemble,,,,,,,,,,,,,,,
+in quantum cosmology. This ensemble corresponds to a uniform (weight one),,,,,,,,,,,,,,,
+distribution in phase space of true physical variables, but in terms of the,,,,,,,,,,,,,,
+observable spacetime geometry it is peaked about complex saddle-points of the,,,,,,,,,,,,,,,
+{\em Lorentzian} path integral. They are represented by the recently obtained,,,,,,,,,,,,,,,
+cosmological instantons limited to a bounded range of the cosmological,,,,,,,,,,,,,,,
+constant. Inflationary cosmologies generated by these instantons at late stages,,,,,,,,,,,,,,,
+of expansion undergo acceleration whose low-energy scale can be attained within,,,,,,,,,,,,,,,
+the concept of dynamically evolving extra dimensions. Thus, together with the,,,,,,,,,,,,,,
+bounded range of the early cosmological constant, this cosmological ensemble,,,,,,,,,,,,,,
+suggests the mechanism of constraining the landscape of string vacua and,,,,,,,,,,,,,,,
+simultaneously, a possible solution to the dark energy problem in the form of,,,,,,,,,,,,,,
+the quasi-equilibrium decay of the microcanonical state of the Universe.,,,,,,,,,,,,,,,
 "	v1	Sun, 1 Apr 2007 12:38:03 GMT	v2	Mon, 9 Apr 2007 19:39:24 GMT	26-11-2008	Barvinsky	A. O.																																																																																																																																																																									
-704.0084	Baruch Meerson	Itzhak Fouxon, Baruch Meerson, Michael Assaf, Eli Livne	"Formation of density singularities in ideal hydrodynamics of freely
-  cooling inelastic gases: a family of exact solutions"	19 pages, 7 figures		10.1063/1.2767361		cond-mat.soft nlin.PS physics.flu-dyn		"  We employ granular hydrodynamics to investigate a paradigmatic problem of
-clustering of particles in a freely cooling dilute granular gas. We consider
-large-scale hydrodynamic motions where the viscosity and heat conduction can be
-neglected, and one arrives at the equations of ideal gas dynamics with an
-additional term describing bulk energy losses due to inelastic collisions. We
-employ Lagrangian coordinates and derive a broad family of exact non-stationary
-analytical solutions that depend only on one spatial coordinate. These
-solutions exhibit a new type of singularity, where the gas density blows up in
-a finite time when starting from smooth initial conditions. The density blowups
-signal formation of close-packed clusters of particles. As the density blow-up
-time $t_c$ is approached, the maximum density exhibits a power law $\sim
-(t_c-t)^{-2}$. The velocity gradient blows up as $\sim - (t_c-t)^{-1}$ while
-the velocity itself remains continuous and develops a cusp (rather than a shock
-discontinuity) at the singularity. The gas temperature vanishes at the
-singularity, and the singularity follows the isobaric scenario: the gas
-pressure remains finite and approximately uniform in space and constant in time
-close to the singularity. An additional exact solution shows that the density
-blowup, of the same type, may coexist with an ""ordinary"" shock, at which the
-hydrodynamic fields are discontinuous but finite. We confirm stability of the
-exact solutions with respect to small one-dimensional perturbations by solving
-the ideal hydrodynamic equations numerically. Furthermore, numerical solutions
-show that the local features of the density blowup hold universally,
-independently of details of the initial and boundary conditions.
+704.0084	Baruch Meerson	Itzhak Fouxon, Baruch Meerson, Michael Assaf, Eli Livne	Formation of density singularities in ideal hydrodynamics of freely",,,,,,,,,,,,,,,
+"  cooling inelastic gases: a family of exact solutions""	19 pages"," 7 figures		10.1063/1.2767361		cond-mat.soft nlin.PS physics.flu-dyn		""  We employ granular hydrodynamics to investigate a paradigmatic problem of",,,,,,,,,,,,,,
+clustering of particles in a freely cooling dilute granular gas. We consider,,,,,,,,,,,,,,,
+large-scale hydrodynamic motions where the viscosity and heat conduction can be,,,,,,,,,,,,,,,
+neglected, and one arrives at the equations of ideal gas dynamics with an,,,,,,,,,,,,,,
+additional term describing bulk energy losses due to inelastic collisions. We,,,,,,,,,,,,,,,
+employ Lagrangian coordinates and derive a broad family of exact non-stationary,,,,,,,,,,,,,,,
+analytical solutions that depend only on one spatial coordinate. These,,,,,,,,,,,,,,,
+solutions exhibit a new type of singularity, where the gas density blows up in,,,,,,,,,,,,,,
+a finite time when starting from smooth initial conditions. The density blowups,,,,,,,,,,,,,,,
+signal formation of close-packed clusters of particles. As the density blow-up,,,,,,,,,,,,,,,
+time $t_c$ is approached, the maximum density exhibits a power law $\sim,,,,,,,,,,,,,,
+(t_c-t)^{-2}$. The velocity gradient blows up as $\sim - (t_c-t)^{-1}$ while,,,,,,,,,,,,,,,
+the velocity itself remains continuous and develops a cusp (rather than a shock,,,,,,,,,,,,,,,
+discontinuity) at the singularity. The gas temperature vanishes at the,,,,,,,,,,,,,,,
+singularity, and the singularity follows the isobaric scenario: the gas,,,,,,,,,,,,,,
+pressure remains finite and approximately uniform in space and constant in time,,,,,,,,,,,,,,,
+close to the singularity. An additional exact solution shows that the density,,,,,,,,,,,,,,,
+blowup, of the same type," may coexist with an """"ordinary"""" shock", at which the,,,,,,,,,,,,
+hydrodynamic fields are discontinuous but finite. We confirm stability of the,,,,,,,,,,,,,,,
+exact solutions with respect to small one-dimensional perturbations by solving,,,,,,,,,,,,,,,
+the ideal hydrodynamic equations numerically. Furthermore, numerical solutions,,,,,,,,,,,,,,
+show that the local features of the density blowup hold universally,,,,,,,,,,,,,,,
+independently of details of the initial and boundary conditions.,,,,,,,,,,,,,,,
 "	v1	Sun, 1 Apr 2007 12:54:14 GMT	v2	Wed, 9 May 2007 07:00:42 GMT	13-11-2009	Fouxon	Itzhak		Meerson	Baruch		Assaf	Michael		Livne	Eli																																																																																																																																																																
-704.0085	Partha Mukhopadhyay	Partha Mukhopadhyay	A Universality in PP-Waves	LaTeX file, 43 pages, one reference added, minor changes made	JHEP 0706:061,2007	10.1088/1126-6708/2007/06/061	DAMTP-2007-30	hep-th		"  We discuss a universality property of any covariant field theory in
-space-time expanded around pp-wave backgrounds. According to this property the
-space-time lagrangian density evaluated on a restricted set of field
-configurations, called universal sector, turns out to be same around all the
-pp-waves, even off-shell, with same transverse space and same profiles for the
-background scalars. In this paper we restrict our discussion to tensorial
-fields only. In the context of bosonic string theory we consider on-shell
-pp-waves and argue that universality requires the existence of a universal
-sector of world-sheet operators whose correlation functions are insensitive to
-the pp-wave nature of the metric and the background gauge flux. Such results
-can also be reproduced using the world-sheet conformal field theory. We also
-study such pp-waves in non-polynomial closed string field theory (CSFT). In
-particular, we argue that for an off-shell pp-wave ansatz with flat transverse
-space and dilaton independent of transverse coordinates the field redefinition
-relating the low energy effective field theory and CSFT with all the massive
-modes integrated out is at most quadratic in fields. Because of this
-simplification it is expected that the off-shell pp-waves can be identified on
-the two sides. Furthermore, given the massless pp-wave field configurations, an
-iterative method for computing the higher massive modes using the CSFT
-equations of motion has been discussed. All our bosonic string theory analyses
-can be generalised to the common Neveu-Schwarz sector of superstrings.
+704.0085	Partha Mukhopadhyay	Partha Mukhopadhyay	A Universality in PP-Waves	LaTeX file, 43 pages, one reference added, minor changes made	JHEP 0706:061,2007	10.1088/1126-6708/2007/06/061	DAMTP-2007-30	hep-th		  We discuss a universality property of any covariant field theory in",,,,,,,,,,,,,,,
+space-time expanded around pp-wave backgrounds. According to this property the,,,,,,,,,,,,,,,
+space-time lagrangian density evaluated on a restricted set of field,,,,,,,,,,,,,,,
+configurations, called universal sector, turns out to be same around all the,,,,,,,,,,,,,
+pp-waves, even off-shell, with same transverse space and same profiles for the,,,,,,,,,,,,,
+background scalars. In this paper we restrict our discussion to tensorial,,,,,,,,,,,,,,,
+fields only. In the context of bosonic string theory we consider on-shell,,,,,,,,,,,,,,,
+pp-waves and argue that universality requires the existence of a universal,,,,,,,,,,,,,,,
+sector of world-sheet operators whose correlation functions are insensitive to,,,,,,,,,,,,,,,
+the pp-wave nature of the metric and the background gauge flux. Such results,,,,,,,,,,,,,,,
+can also be reproduced using the world-sheet conformal field theory. We also,,,,,,,,,,,,,,,
+study such pp-waves in non-polynomial closed string field theory (CSFT). In,,,,,,,,,,,,,,,
+particular, we argue that for an off-shell pp-wave ansatz with flat transverse,,,,,,,,,,,,,,
+space and dilaton independent of transverse coordinates the field redefinition,,,,,,,,,,,,,,,
+relating the low energy effective field theory and CSFT with all the massive,,,,,,,,,,,,,,,
+modes integrated out is at most quadratic in fields. Because of this,,,,,,,,,,,,,,,
+simplification it is expected that the off-shell pp-waves can be identified on,,,,,,,,,,,,,,,
+the two sides. Furthermore, given the massless pp-wave field configurations, an,,,,,,,,,,,,,
+iterative method for computing the higher massive modes using the CSFT,,,,,,,,,,,,,,,
+equations of motion has been discussed. All our bosonic string theory analyses,,,,,,,,,,,,,,,
+can be generalised to the common Neveu-Schwarz sector of superstrings.,,,,,,,,,,,,,,,
 "	v1	Sun, 1 Apr 2007 12:55:02 GMT	v2	Mon, 9 Apr 2007 12:06:19 GMT	13-11-2009	Mukhopadhyay	Partha																																																																																																																																																																									
-704.0086	Vladislav Vysotsky	Vladislav V. Vysotsky	Clustering in a stochastic model of one-dimensional gas	"Published in at http://dx.doi.org/10.1214/07-AAP481 the Annals of
-  Applied Probability (http://www.imstat.org/aap/) by the Institute of
-  Mathematical Statistics (http://www.imstat.org)"	Annals of Applied Probability 2008, Vol. 18, No. 3, 1026-1058	10.1214/07-AAP481	IMS-AAP-AAP481	math.PR		"  We give a quantitative analysis of clustering in a stochastic model of
-one-dimensional gas. At time zero, the gas consists of $n$ identical particles
-that are randomly distributed on the real line and have zero initial speeds.
-Particles begin to move under the forces of mutual attraction. When particles
-collide, they stick together forming a new particle, called cluster, whose mass
-and speed are defined by the laws of conservation. We are interested in the
-asymptotic behavior of $K_n(t)$ as $n\to \infty$, where $K_n(t)$ denotes the
-number of clusters at time $t$ in the system with $n$ initial particles. Our
-main result is a functional limit theorem for $K_n(t)$. Its proof is based on
-the discovered localization property of the aggregation process, which states
-that the behavior of each particle is essentially defined by the motion of
-neighbor particles.
+704.0086	Vladislav Vysotsky	Vladislav V. Vysotsky	Clustering in a stochastic model of one-dimensional gas	Published in at http://dx.doi.org/10.1214/07-AAP481 the Annals of",,,,,,,,,,,,,,,
+  Applied Probability (http://www.imstat.org/aap/) by the Institute of,,,,,,,,,,,,,,,
+"  Mathematical Statistics (http://www.imstat.org)""	Annals of Applied Probability 2008", Vol. 18, No. 3," 1026-1058	10.1214/07-AAP481	IMS-AAP-AAP481	math.PR		""  We give a quantitative analysis of clustering in a stochastic model of",,,,,,,,,,,,
+one-dimensional gas. At time zero, the gas consists of $n$ identical particles,,,,,,,,,,,,,,
+that are randomly distributed on the real line and have zero initial speeds.,,,,,,,,,,,,,,,
+Particles begin to move under the forces of mutual attraction. When particles,,,,,,,,,,,,,,,
+collide, they stick together forming a new particle, called cluster, whose mass,,,,,,,,,,,,
+and speed are defined by the laws of conservation. We are interested in the,,,,,,,,,,,,,,,
+asymptotic behavior of $K_n(t)$ as $n\to \infty$, where $K_n(t)$ denotes the,,,,,,,,,,,,,,
+number of clusters at time $t$ in the system with $n$ initial particles. Our,,,,,,,,,,,,,,,
+main result is a functional limit theorem for $K_n(t)$. Its proof is based on,,,,,,,,,,,,,,,
+the discovered localization property of the aggregation process, which states,,,,,,,,,,,,,,
+that the behavior of each particle is essentially defined by the motion of,,,,,,,,,,,,,,,
+neighbor particles.,,,,,,,,,,,,,,,
 "	v1	Sun, 1 Apr 2007 13:10:43 GMT	v2	Tue, 17 Jun 2008 06:56:43 GMT	17-06-2008	Vysotsky	Vladislav V.																																																																																																																																																																									
-704.0087	Tuyen Truong	Duong Minh Duc and Truong Trung Tuyen	"Approximate solutions to the Dirichlet problem for harmonic maps between
-  hyperbolic spaces"					math.DG		"  Our main result in this paper is the following: Given $H^m, H^n$ hyperbolic
-spaces of dimensional $m$ and $n$ corresponding, and given a Holder function
-$f=(s^1,...,f^{n-1}):\partial H^m\to \partial H^n$ between geometric boundaries
-of $H^m$ and $H^n$. Then for each $\epsilon >0$ there exists a harmonic map
-$u:H^m\to H^n$ which is continuous up to the boundary (in the sense of
-Euclidean) and $u|_{\partial H^m}=(f^1,...,f^{n-1},\epsilon)$.
+704.0087	Tuyen Truong	Duong Minh Duc and Truong Trung Tuyen	Approximate solutions to the Dirichlet problem for harmonic maps between",,,,,,,,,,,,,,,
+"  hyperbolic spaces""					math.DG		""  Our main result in this paper is the following: Given $H^m", H^n$ hyperbolic,,,,,,,,,,,,,,
+spaces of dimensional $m$ and $n$ corresponding, and given a Holder function,,,,,,,,,,,,,,
+$f=(s^1,...,f^{n-1}):\partial H^m\to \partial H^n$ between geometric boundaries,,,,,,,,,,,,,
+of $H^m$ and $H^n$. Then for each $\epsilon >0$ there exists a harmonic map,,,,,,,,,,,,,,,
+$u:H^m\to H^n$ which is continuous up to the boundary (in the sense of,,,,,,,,,,,,,,,
+Euclidean) and $u|_{\partial H^m}=(f^1,...,f^{n-1},\epsilon)$.,,,,,,,,,,,,
 "	v1	Sun, 1 Apr 2007 13:44:50 GMT	v2	Wed, 23 May 2007 12:49:52 GMT	13-06-2007	Duc	Duong Minh		Tuyen	Truong Trung																																																																																																																																																																						
-704.0088	Nikolay Tcherniega V.	N.V.Tcherniega	Some new experimental photonic flame effect features	9 pages, 10 figures, accepted for publication in JRLR				physics.optics		"  The results of the spectral, energetical and temporal characteristics of
-radiation in the presence of the photonic flame effect are presented.
-Artificial opal posed on Cu plate at the temperature of liquid nitrogen boiling
-point (77 K) being irradiated by nanosecond ruby laser pulse produces long-
-term luminiscence with a duration till ten seconds with a finely structured
-spectrum in the the antistocks part of the spectrum. Analogous visible
-luminescence manifesting time delay appeared in other samples of the artificial
-opals posed on the same plate. In the case of the opal infiltrated with
-different nonlinear liquids the threshold of the luminiscence is reduced and
-the spatial disribution of the bright emmiting area on the opal surface is
-being changed. In the case of the putting the frozen nonlinear liquids on the
-Cu plate long-term blue bright luminiscence took place in the frozen species of
-the liquids. Temporal characteristics of this luminiscence are nearly the same
-as in opal matrixes.
+704.0088	Nikolay Tcherniega V.	N.V.Tcherniega	Some new experimental photonic flame effect features	9 pages, 10 figures, accepted for publication in JRLR				physics.optics		  The results of the spectral", energetical and temporal characteristics of,,,,,,,,,,,,,,
+radiation in the presence of the photonic flame effect are presented.,,,,,,,,,,,,,,,
+Artificial opal posed on Cu plate at the temperature of liquid nitrogen boiling,,,,,,,,,,,,,,,
+point (77 K) being irradiated by nanosecond ruby laser pulse produces long-,,,,,,,,,,,,,,,
+term luminiscence with a duration till ten seconds with a finely structured,,,,,,,,,,,,,,,
+spectrum in the the antistocks part of the spectrum. Analogous visible,,,,,,,,,,,,,,,
+luminescence manifesting time delay appeared in other samples of the artificial,,,,,,,,,,,,,,,
+opals posed on the same plate. In the case of the opal infiltrated with,,,,,,,,,,,,,,,
+different nonlinear liquids the threshold of the luminiscence is reduced and,,,,,,,,,,,,,,,
+the spatial disribution of the bright emmiting area on the opal surface is,,,,,,,,,,,,,,,
+being changed. In the case of the putting the frozen nonlinear liquids on the,,,,,,,,,,,,,,,
+Cu plate long-term blue bright luminiscence took place in the frozen species of,,,,,,,,,,,,,,,
+the liquids. Temporal characteristics of this luminiscence are nearly the same,,,,,,,,,,,,,,,
+as in opal matrixes.,,,,,,,,,,,,,,,
 "	v1	Sun, 1 Apr 2007 14:10:51 GMT			23-05-2007	Tcherniega	N. V.																																																																																																																																																																									
-704.0089	Igor Grabec	I. Grabec	"A general approach to statistical modeling of physical laws:
-  nonparametric regression"	17 pages, 8 eps figures, uses revtex4.cls				physics.data-an physics.gen-ph		"  Statistical modeling of experimental physical laws is based on the
-probability density function of measured variables. It is expressed by
-experimental data via a kernel estimator. The kernel is determined objectively
-by the scattering of data during calibration of experimental setup. A physical
-law, which relates measured variables, is optimally extracted from experimental
-data by the conditional average estimator. It is derived directly from the
-kernel estimator and corresponds to a general nonparametric regression. The
-proposed method is demonstrated by the modeling of a return map of noisy
-chaotic data. In this example, the nonparametric regression is used to predict
-a future value of chaotic time series from the present one. The mean predictor
-error is used in the definition of predictor quality, while the redundancy is
-expressed by the mean square distance between data points. Both statistics are
-used in a new definition of predictor cost function. From the minimum of the
-predictor cost function, a proper number of data in the model is estimated.
+704.0089	Igor Grabec	I. Grabec	A general approach to statistical modeling of physical laws:",,,,,,,,,,,,,,,
+"  nonparametric regression""	17 pages", 8 eps figures," uses revtex4.cls				physics.data-an physics.gen-ph		""  Statistical modeling of experimental physical laws is based on the",,,,,,,,,,,,,
+probability density function of measured variables. It is expressed by,,,,,,,,,,,,,,,
+experimental data via a kernel estimator. The kernel is determined objectively,,,,,,,,,,,,,,,
+by the scattering of data during calibration of experimental setup. A physical,,,,,,,,,,,,,,,
+law, which relates measured variables, is optimally extracted from experimental,,,,,,,,,,,,,
+data by the conditional average estimator. It is derived directly from the,,,,,,,,,,,,,,,
+kernel estimator and corresponds to a general nonparametric regression. The,,,,,,,,,,,,,,,
+proposed method is demonstrated by the modeling of a return map of noisy,,,,,,,,,,,,,,,
+chaotic data. In this example, the nonparametric regression is used to predict,,,,,,,,,,,,,,
+a future value of chaotic time series from the present one. The mean predictor,,,,,,,,,,,,,,,
+error is used in the definition of predictor quality, while the redundancy is,,,,,,,,,,,,,,
+expressed by the mean square distance between data points. Both statistics are,,,,,,,,,,,,,,,
+used in a new definition of predictor cost function. From the minimum of the,,,,,,,,,,,,,,,
+predictor cost function, a proper number of data in the model is estimated.,,,,,,,,,,,,,,
 "	v1	Sun, 1 Apr 2007 14:29:57 GMT			23-05-2007	Grabec	I.																																																																																																																																																																									
+",,,,,,,,,,,,,,,
