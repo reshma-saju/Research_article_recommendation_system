@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+   <head>
+      <link rel="stylesheet" href="/front_end/common.css">
+   </head>
+   <body>
+      <h1>Topics generated</h1>
+      <h2>Based on hdp:</h2>
+      <table border = 1>
+        {% for i in hdp_result %}
+        <tr>
+           <th> {{ i }} </th>
+        </tr>
+         {% endfor %}
+      </table>
+      <h2>Based on lda:</h2>
+      <table border = 1>
+         {% for i in lda_result %}
+            <tr>
+               <th> {{ i }} </th>
+            </tr>
+         {% endfor %}
+      </table>
+   </body>
+</html>
