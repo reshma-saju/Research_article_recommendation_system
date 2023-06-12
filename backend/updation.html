@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../common.css">
-    <link rel="stylesheet" href="updation.css" />
+    <link rel="stylesheet" href="/front_end/common.css">
+    <link rel="stylesheet" href="/front_end/updation/updation.css">
   </head>
   <body>
     <div id="navbar">
@@ -29,7 +29,7 @@
           >
         </li>
         <li>
-          <a href="/front_end/updation/updation.html">Updations</a>
+          <a href="/backend/updation.html">Updations</a>
         </li>
       </ul>
       <div></div>
@@ -46,34 +46,34 @@
       <div class="content">
         <!-- <div class="leftcontent">
           <!-- <h1>hello</h1> -->
-        </div> -->
+        </div>
         <div class="rightcontent">
-          <form class="contcontrols">
+          <form class="contcontrols" action="http://127.0.0.1:5000/updation" method="post">
             <h2 class="details">Enter the details to add to database:</h2>
             <br />
-            <input type="text" class="cont" placeholder="Article ID" />
+            <input name="article_id" type="text" class="cont" placeholder="Article ID" />
             <br />
-            <input type="text" class="cont" placeholder="Submitter" />
+            <input name="submitter" type="text" class="cont" placeholder="Submitter" />
             <br />
-            <input type="text" class="cont" placeholder="Authors" />
+            <input name="authors" type="text" class="cont" placeholder="Authors" />
             <br />
-            <input type="text" class="cont" placeholder="Title" />
+            <input name="title" type="text" class="cont" placeholder="Title" />
             <br />
-            <input type="text" class="cont" placeholder="Comments" />
+            <input name="comments" type="text" class="cont" placeholder="Comments" />
             <br />
-            <input type="text" class="cont" placeholder="Journal-ref" />
+            <input name="journ_ref" type="text" class="cont" placeholder="Journal-ref" />
             <br />
-            <input type="text" class="cont" placeholder="doi" />
+            <input name="doi" type="text" class="cont" placeholder="doi" />
             <br />
             <!-- <input type="text" class="cont" placeholder="Report- no" />
             <br /> -->
-            <input type="text" class="cont" placeholder="Categories" />
+            <input name="cate" type="text" class="cont" placeholder="Categories" />
             <br />
             <!-- <input type="text" class="cont" placeholder="License" />
             <br /> -->
-            <input type="text" class="cont" placeholder="Abstract" />
+            <input name="abstract" type="text" class="cont" placeholder="Abstract" />
             <br />
-            <input type="text" class="cont" placeholder="Versions" />
+            <input name="versions" type="text" class="cont" placeholder="Versions" />
             <br />
 
             <input type="submit" class="submit" />
