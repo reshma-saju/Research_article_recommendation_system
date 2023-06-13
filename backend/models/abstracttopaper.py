@@ -65,10 +65,12 @@ def getRecommendation(ARTICLE_READ):
 
     # print ('Recommendations ')
     # print (res_articles.loc[final_recommended_articles_id])
-    print(final_recommended_articles_id)
-
+    # print(final_recommended_articles_id)
     titles = res_articles.loc[final_recommended_articles_id]['title']
-
+    # for i, val in enumerate(final_recommended_articles_id):
+    #     if len(str(val)) < 10:
+    #         formatted_num = "{:08.4f}".format(float(val))
+    #     final_recommended_articles_id[i] = formatted_num
     return dict(zip(final_recommended_articles_id, titles))
 
 # art = ArticleRecommender()
