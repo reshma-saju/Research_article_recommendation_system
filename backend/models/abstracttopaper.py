@@ -69,8 +69,13 @@ def getRecommendation(ARTICLE_READ):
     titles = res_articles.loc[final_recommended_articles_id]['title']
     for i, val in enumerate(final_recommended_articles_id):
         if len(str(val)) < 10:
-            formatted_num = "{:08.4f}".format(float(val))
-            final_recommended_articles_id[i] = formatted_num
+            num_str = str(val)
+            whole_part, decimal_part = num_str.split('.')
+
+            whole_part = whole_part.rjust(4, '0')
+            decimal_part = decimal_part.ljust(4, '0')
+
+            final_recommended_articles_id[i] = whole_part + '.' + decimal_part
     return dict(zip(final_recommended_articles_id, titles))
 
 # art = ArticleRecommender()

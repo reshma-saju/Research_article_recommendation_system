@@ -37,6 +37,14 @@ def title_getRecommendation(title_read):
     ref_indices = similar_text_indices
     similar_text_indices = [res_ids[i-2] for i in similar_text_indices]
     recommended_texts = [titles[idx-1] for idx in ref_indices]
+    for i, val in enumerate(similar_text_indices):
+        if len(str(val)) < 10:
+            num_str = str(val)
+            whole_part, decimal_part = num_str.split('.')
 
+            whole_part = whole_part.rjust(4, '0')
+            decimal_part = decimal_part.ljust(4, '0')
+
+            similar_text_indices[i] = whole_part + '.' + decimal_part
     # results is in print(recommended_texts)
     return dict(zip(similar_text_indices, recommended_texts))
