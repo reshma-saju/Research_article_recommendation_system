@@ -1,0 +1,39 @@
+body{
+    background-image:url("image/main-background.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.rectitle{
+    color: black;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    
+}
+
+.table1{
+    border: 1px solid black;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border-collapse: collapse;    
+    width: 1000px;  
+    text-align: center;  
+    font-size: 20px;
+    background-color: rgb(227, 216, 197);
+   
+}
+.title{
+    font-family: "Orbitron", sans-serif;
+    padding-left: 70px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
