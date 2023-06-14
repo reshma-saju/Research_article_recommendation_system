@@ -2,20 +2,23 @@
 <html>
    <head>
       <link rel="stylesheet" href="/front_end/common.css">
+      <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/rec_result.css') }}">
    </head>
    <body>
-      <h1>Recommendations</h1>
-      <h2>Based on title:</h2>
-      <table border = 1>
+      <h1 class="maintitle">Recommendations</h1>
+      <h2 class="title">Based on title:</h2>
+      <table class="table1" border = 1>
+         
          {% for key, value in title_result.items() %}
             <tr>
-               <th><a href="https://arxiv.org/abs/{{ key }}" target="_blank">{{ key }}</th>
+               <th><a  href="https://arxiv.org/abs/{{ key }}" target="_blank">{{ key }}</th>
                <td> {{ value }} </td>
             </tr>
          {% endfor %}
       </table>
-      <h2>Based on abstract:</h2>
-      <table border = 1>
+      
+      <h2 class="title">Based on abstract:</h2>
+      <table class="table1" border = 1>
          {% for key, value in abs_result.items() %}
             <tr>
                <th><a href="https://arxiv.org/abs/{{ key }}" target="_blank">{{ key }}</th>

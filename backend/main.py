@@ -6,7 +6,7 @@ from models.topic_modelling import getTopics
 from models.updation import updation
 
 app = Flask(__name__)
-
+app = Flask(__name__, static_url_path='/static')
 
 @app.route("/")
 def hello_world():
